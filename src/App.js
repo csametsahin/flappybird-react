@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-
+import react, { useState,useEffect } from 'react';
 function App() {
+  const [birdLocation,setBirdLocationState] = useState(250);
+
+  useEffect(() => {
+    setTimeout(() => {
+      
+      }, 1000);
+  });
+
+
+  const keyUpHandler = (event) => {
+          console.log("zıplıyorum");
+          setBirdLocationState(() => birdLocation - (birdLocation*1,95));
+          console.log(birdLocation);
+    
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <div className="game-container"
+            onClick={() => keyUpHandler()}
+          >
+              <div className='bird' style={{top:birdLocation}}
+                ></div>
+               <div className='engelTop'></div>
+               <div className='engelBottom'></div> 
+          </div>
     </div>
   );
 }

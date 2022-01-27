@@ -11,7 +11,7 @@
   margin: auto;
   border: 1px solid rgba(109, 105, 105, 0.5);
   border-radius: 10px;
-  background-color: #69443C;
+  background-color: #c5fa07;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -22,7 +22,24 @@
   background-image: url("../public/bird.png");
   width: 70px;
   height: 70px;
-  top: 50%;
   position: absolute;
   transform: translate(0%, -50%);
+}
+.engelTop{
+    width: 70px;
+    height: 150px;
+    left: 410px;
+    color: darkgreen;
+    position: absolute;
+    background-image: url("../public/pipetest.png");
+}
+.engelBottom{
+  width: 70px;
+  height: 150px;
+  
+  bottom: 0px;
+  color: darkgreen;
+  position: absolute;
+  background-image: url("../public/pipetest.png");
+
 }

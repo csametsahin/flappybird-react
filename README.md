@@ -9,7 +9,7 @@ Projeyi indirdikten veya klonladıktan sonra npm install yapıp node modullerini
 ### `npm start`
 
 Komutunu kullanarak local hostta projeyi çalıştırabilirsiniz 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ [http://localhost:3000](http://localhost:3000) Görüntülemek için.
 
 ### Oyun Başlangıcı
 

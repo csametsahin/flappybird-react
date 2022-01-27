@@ -1,4 +1,4 @@
-# React ile Flappy Bird
+# React ile Flappy Bird Kopyası
 
 Proje javascript react ve css yardımıyla gerçekleştirildi . 
 

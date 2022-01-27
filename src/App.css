@@ -43,3 +43,25 @@
   background-image: url("../public/pipetest.png");
 
 }
+.engelTop2{
+  width: 70px;
+  height: 150px;
+  color: darkgreen;
+  position: absolute;
+  background-image: url("../public/pipetest.png");
+}
+.engelBottom2{
+width: 70px;
+height: 150px;
+bottom: 0px;
+color: darkgreen;
+position: absolute;
+background-image: url("../public/pipetest.png");
+}
+.skor{
+  position: absolute;
+  top: 250px;
+  font-size: 24px;
+  font-style: bold;
+  color: darkslateblue;
+}
